@@ -1,6 +1,7 @@
 def func():
     data = input().strip().replace("  ", " ").split(" ")
     data.sort(reverse=True)
+    print(data)
     result = ""
     i = 0
     temp = []
@@ -11,7 +12,6 @@ def func():
             result += "".join(temp)
             break
         if symbol != data[i + 1][0]:
-            temp.sort(reverse=True)
             tempValue = temp[-1]
             temp.pop(-1)
             temp.insert(0, tempValue)
