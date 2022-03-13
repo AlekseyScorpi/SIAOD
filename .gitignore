@@ -1,3 +1,4 @@
 tasks/*.py
 labs/.ipynb_checkpoints
 tasks/.ipynb_checkpoints
+*.txt
